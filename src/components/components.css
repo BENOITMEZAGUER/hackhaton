@@ -1,0 +1,18 @@
+/*---------------TOP BAR------------------*/
+.top-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-bar-uni {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-links {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
