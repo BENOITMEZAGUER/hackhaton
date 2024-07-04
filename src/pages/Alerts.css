@@ -1,36 +1,37 @@
 .mainTitle {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .headerDescription {
-    font-size: larger;
-    padding: 0 10em;
-    padding-bottom: 2em;
+  font-size: larger;
+  padding: 0 10em;
+  padding-bottom: 2em;
 }
 
 .buttonAlerts {
-    width: 100%;
-    height: 90px;
+  width: 100%;
+  height: 90px;
 }
 
 .requestForm {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    padding: 0 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 0 8em;
 }
 
 .anonymous {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
 }
 
 .submitButton {
-    margin-top: 1em;
+  margin-top: 1em;
+  margin-bottom: 5rem;
 }
 
 .alertConf {
-    margin-top: 1em;
+  margin: 1rem 0;
 }
