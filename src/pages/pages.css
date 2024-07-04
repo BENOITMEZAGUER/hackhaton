@@ -1,0 +1,28 @@
+.btn-home {
+  width: 100%;
+  height: 150px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.formulaire-questionnaire {
+  margin: 0 3rem;
+}
+
+.input-check-questionnaire {
+  margin: 0.2rem 0.5rem 0 0;
+}
+
+.btn-questionnaire {
+  margin: 2rem;
+}
+
+.informations {
+  width: 90%;
+  margin: 0 3rem;
+}
