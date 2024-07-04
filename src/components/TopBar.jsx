@@ -1,12 +1,25 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import "./components.css";
 
 function TopBar() {
+  const navigate = useNavigate();
+
+  const handleHome = () => {
+    navigate("/");
+  };
   return (
-    <>
-      <p>logo</p>
-      <Link to="/">Accueil</Link>
-      <button>Connexion</button>
-    </>
+    <div className="top-bar-container">
+      <div className="top-bar-uni">
+        <img src="/ensemble.jpg" alt="ensemble" style={{ width: "20%" }} />
+        <h1>2gether</h1>
+      </div>
+      <div className="top-bar-links">
+        <button className="btn btn-secondary" onClick={handleHome}>
+          Accueil
+        </button>
+        <button className="btn btn-primary">Connexion</button>
+      </div>
+    </div>
   );
 }
 
