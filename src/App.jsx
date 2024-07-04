@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import TopBar from "./components/TopBar";
 import "bootstrap/dist/css/bootstrap.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
