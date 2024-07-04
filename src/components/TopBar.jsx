@@ -11,7 +11,7 @@ function TopBar() {
     <div className="top-bar-container">
       <div className="top-bar-uni">
         <img src="/ensemble.jpg" alt="ensemble" style={{ width: "20%" }} />
-        <p>Unis</p>
+        <h1>2gether</h1>
       </div>
       <div className="top-bar-links">
         <button className="btn btn-secondary" onClick={handleHome}>
