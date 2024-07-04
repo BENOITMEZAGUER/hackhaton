@@ -26,7 +26,7 @@ function Home() {
   return (
     <>
       <h2 className="home">Accueil</h2>
-      <div className="container">
+      <div className="container accueil-container">
         <div className="row">
           <div className="col-md-4">
             <button

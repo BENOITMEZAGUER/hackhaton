@@ -16,3 +16,23 @@
   width: 20%;
   justify-content: space-around;
 }
+
+/*---------------FOOTER------------------*/
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4rem;
+  border-top: solid 1px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-uni {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
