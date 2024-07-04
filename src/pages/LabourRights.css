@@ -1,16 +1,22 @@
 .pageTitle {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .headerDescription {
-    font-size: larger;
-    padding: 0 10em;
-    padding-bottom: 2em;
+  font-size: larger;
+  padding: 0 10em;
+  padding-bottom: 2em;
 }
 
 .accordion {
-    width: 100%;
-    padding: 0 8em;
+  width: 100%;
+  padding: 0 8em;
+}
+
+.btn-days-off {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
