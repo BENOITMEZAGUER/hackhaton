@@ -7,7 +7,7 @@ function Events() {
       <h1 className="events-title">
         L'agenda
         <small className="text-body-secondary-">
-          vos rendez-vous bien-être
+          Vos rendez-vous bien-être
         </small>
       </h1>
 
@@ -99,7 +99,7 @@ function Events() {
                 placeholder="Notez vos idées ici!"
               ></textarea>
             </div>
-            <div className="modal-footer">
+            <div className="event-modal-footer">
               <button type="button" className="btn btn-primary">
                 Envoyer
               </button>
