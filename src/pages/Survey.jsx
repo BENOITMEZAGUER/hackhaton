@@ -163,6 +163,24 @@ function Survey() {
       <div>
         <h1 className="home">Questionnaire santé au travail</h1>
       </div>
+      <div className="informations">
+        <p>
+          Nous tenons à vous informer que ce questionnaire est entièrement
+          anonyme et aucune information ne sera transmise à l'entreprise. Vos
+          réponses seront traitées de manière strictement confidentielle. Ce
+          questionnaire vise à comprendre votre bien-être global, en particulier
+          en ce qui concerne votre équilibre émotionnel au travail. Les données
+          recueillies seront analysées par une intelligence artificielle
+          bienveillante pour vous offrir des insights personnels. Nous
+          souhaitons souligner que ce processus est conçu pour vous accompagner
+          dans votre démarche vers un mieux-être psychologique, vous offrir des
+          perspectives et, si nécessaire, vous orienter vers des ressources
+          adaptées. N'hésitez pas à répondre en toute franchise, car la santé
+          émotionnelle de chacun est importante. Votre participation contribue à
+          créer un environnement de travail plus soutenant et épanouissant pour
+          tous.
+        </p>
+      </div>
       <div className="formulaire-questionnaire">
         <form
           onSubmit={handleSubmit}
