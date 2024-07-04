@@ -40,6 +40,18 @@
   border-radius: 0.375rem;
   opacity: var(--bs-btn-close-opacity);
   justify-content: end;
+  float: right;
+}
+
+.event-btn-close:hover {
+  color: var(--bs-btn-close-color);
+  text-decoration: none;
+  opacity: var(--bs-btn-close-hover-opacity);
+}
+.event-btn-close:focus {
+  outline: 0;
+  box-shadow: var(--bs-btn-close-focus-shadow);
+  opacity: var(--bs-btn-close-focus-opacity);
 }
 
 .event-text {

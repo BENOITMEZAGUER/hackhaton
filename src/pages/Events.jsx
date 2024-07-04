@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import "./Events.css";
 
 function Events() {
@@ -85,7 +86,7 @@ function Events() {
               <h5 className="modal-event-title">Envie de proposer un thème?</h5>
               <button
                 type="button"
-                className="btn-close"
+                className="event-btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
