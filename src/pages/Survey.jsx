@@ -1,7 +1,5 @@
-
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from "react";
-
 
 function Survey() {
   const questions = [
@@ -214,6 +212,7 @@ function Survey() {
           ""
         )}
       </div>
+      <div className="padding-bas"></div>
     </div>
   );
 }

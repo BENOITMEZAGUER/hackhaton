@@ -16,6 +16,7 @@ function Booking() {
         alt="agenda de reservation de salle"
         className="img-fluid"
       />
+      <div className="padding-bas"></div>
     </>
   );
 }
